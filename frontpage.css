@@ -1,0 +1,38 @@
+body{
+    height: 100dvh;
+    margin: 0;
+    background-attachment: scroll;
+    background: linear-gradient(
+    to bottom right,
+    rgb(94, 204, 162) 5%,
+    rgb(49, 173, 126) 10%,
+    rgb(40, 41, 44) 80%
+  );
+}
+
+#heading1 {
+    color: white;
+    border: 2px solid seagreen;
+    box-shadow: 0 0 0 1dvh whitesmoke;
+    outline-offset: 0.5dvh;
+    white-space: nowrap;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin: 4vh auto;
+    padding: 0.5rem;
+}
+
+#add {
+  background-color: aqua;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 2dvh;
+}
