@@ -14,12 +14,23 @@
         <link rel="stylesheet" href="/frontpage.css">
     </head>
     <body >
+       
         <h1 id="heading1">
             Welcome to Todo list.
         </h1>
         <button id="add">
             Add new task
         </button>
+        
+        <form id="taskform">
+            <input type="text" id="task" name="task" placeholder="Enter you task:"><br>
+            <button type="submit">
+                submit
+            </button>
+        </form>
+
+        <ol id="tasklist">
+        </ol>
         <script src="/frontpage.js" async defer></script>
         <noscript>Sorry, your browser does not support JavaScript!</noscript>
     </body>

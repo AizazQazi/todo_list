@@ -36,3 +36,10 @@ body{
   cursor: pointer;
   border-radius: 2dvh;
 }
+li{
+  margin: 2dvh 0;
+}
+
+button{
+  margin-left: 4dvh;
+}
