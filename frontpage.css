@@ -27,15 +27,31 @@ body{
 
 #add {
   background-color: aqua;
-  padding: 10px 20px; 
+  padding: 10px; 
+  height: 60px;
+  width: 59px;
   border: none;
-  border-radius: 8px;
   font-size: 18px;
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  border-radius: 2dvh;
+  border-radius: 50%;
+  transition: all 1.6s ease-out;
+
+  position: fixed;
+  right: 5dvh;
+  bottom: 15dvh;
+
 }
+#add:hover{
+  background-color:rgb(101, 146, 153);
+}
+#add:active{
+  box-shadow: 0 0 2px rgb(234, 238, 238);
+  transform: rotateY(360deg);
+}
+
+
 li{
   margin: 2dvh 0;
 }

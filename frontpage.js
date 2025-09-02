@@ -7,11 +7,11 @@ form.style.display="none"
 button.addEventListener("click", function(){
      if (form.style.display==="none" || form.style.display==="") {
         form.style.display="block"
-        button.innerText="hide form"
+        button.innerHTML = '<i class="fa fa-close"  style="color:red;"></i>'
      } 
      else {
         form.style.display="none"
-        button.innerText="Add new task"
+        button.innerHTML = '<i class="fa fa-plus" style="color:white;"></i>'
         
      }
 
@@ -41,7 +41,7 @@ form.addEventListener("submit", function(e){
 
        if (form.style.display==="block") {
         form.style.display="none"
-        button.innerText="Add new task"
+        button.innerHTML = '<i class="fa fa-plus" style="color:white;"></i>'
        }
         
         if (editbtn.textContent==="Edit") {
